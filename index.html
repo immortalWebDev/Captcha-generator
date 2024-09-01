@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generate Captcha Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center">
+    <div class="captcha-container">
+        <h1 class="text-3xl font-bold text-center mb-8">Generated Captcha</h1>
+
+        <div id="captchaTable" class="captcha-display mb-4"></div>
+
+        <div class="flex justify-center items-center space-x-4 mb-4">
+            <input type="text" id="captchaInput" class="input-field" placeholder="Enter Captcha" />
+
+            <button id="refreshButton" class="refresh-button">Refresh</button>
+        </div>
+
+        <button id="verifyButton" class="verify-button">Verify captcha</button>
+
+        <p id="resultMessage" class="result-message mt-4"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
