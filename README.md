@@ -11,10 +11,12 @@ A simple and interactive Captcha Generator built with HTML, CSS, and JavaScript.
 
 ### 📂 Project Structure
 
-```📦 captcha-generator
+```
+📦 captcha-generator
 ├── index.html        # HTML structure of the project
 ├── style.css         # CSS file for styling
-└── script.js         # JavaScript file for functionality```
+└── script.js         # JavaScript file for functionality 
+```
 
 ### 🚀 Getting Started
 
@@ -22,11 +24,11 @@ To run this project locally, follow these steps:
 
 Clone the repository:
 
-- ```git clone https://github.com/your-username/captcha-generator.git```
+- `git clone https://github.com/your-username/captcha-generator.git`
 
 Navigate to the project directory:
 
-- ```cd captcha-generator```
+- `cd captcha-generator`
 - Open index.html in your browser:
 
 Just open the index.html file in any web browser, and you’re good to go!
