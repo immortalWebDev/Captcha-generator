@@ -12,10 +12,10 @@ A simple and interactive Captcha Generator built with HTML, CSS, and JavaScript.
 ### 📂 Project Structure
 
 
-📦 captcha-generator
-├── index.html        # HTML structure of the project
-├── style.css         # CSS file for styling
-└── script.js         # JavaScript file for functionality 
+#### 📦 captcha-generator
+ - index.html        # HTML structure of the project
+ - style.css         # CSS file for styling
+ - script.js         # JavaScript file for functionality 
 
 
 ### 🚀 Getting Started
